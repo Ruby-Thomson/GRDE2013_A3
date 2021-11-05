@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ruby Painted It</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.57/dist/themes/light.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair Display'>
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/themes/light.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="page-header">
+    <img src="GRDE2013_A1_Monogram_RT.jpg" alt="RT" class="logo-main">
+</header>    
+
+<!-- HERO -->
+<div class="hero">
+    <nav class="primary-nav">
+        <ul> 
+            <li><a href="Home" style="color: black;">Home</a></li> 
+            <li><a href="About" style="color: black;">About</a></li>
+            <li><a href="Exhibitions" style="color: black;">Exhibitions</a></li>
+            <li><a href="Gallery" style="color: black;">Gallery</a></li>
+            <li><a href="Contact" style="color: black;">Contact</a></li>
+        </ul>        
+    </nav>
+
+    <div class="hero-image gallery-image">
+        <img src="heroImg.png" alt="heroImg">
+    </div>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<!-- STUDIO -->
+<div class="studioHeader">
+    <h3>THE STUDIO</h3>
+</div>
+
+<!-- COLLABORATE -->
+<div onscroll="scrollFunction()" style="transition: ease;" class="overlayCollaborate">
+    <h2 style="padding-left: 2%;">Collaborate</h2>
+    <p class="collaborateInfo">Want to collaborate and create some momentous art? I enjoy creating with others and work great in a team. I’m always looking to learn new art styles from others and open to new ideas. </p>
+    
+    <div>
+        <button class="joinMeBtn">Join Me</button>
+    </div>
+</div>
+
+<!-- STUDIO IMG BUBBLES -->
+<div class="studioImg-wrap info-bubbles-wrap">
+    <img class="studioImg gallery-image" src="studio_img.jpg" alt="studioImg">
+    <button class="si-b1 b1-dialog-trigger"></button>
+    <button class="si-b2 b2-dialog-trigger"></button>
+    <button class="si-b3 b3-dialog-trigger"></button>
+    <button class="si-b4 b4-dialog-trigger"></button>
+</div>
+
+<div class="blob">
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_penwgnf8.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player> 
+</div>
+
+ <!-- ART HEADER-->
+ <div id="art">
+    <h1>ART</h1>
+</div>
+
+<div class="newAnimation">
+    <lottie-player autoplay="true" loop src="https://assets3.lottiefiles.com/packages/lf20_camdlwus.json" speed="1"></lottie-player>
+</div>
+
+<!-- ART PAGE ONE -->
+<div id="artPage1">
+    <div class="column1">
+        <img class="mushroom gallery-image mushroom-dialog-trigger" src="mushroom.png" alt="mushroom">
+        <img class="hand gallery-image hand-dialog-trigger" src="hand.png" alt="hand">
+    </div>
+    <div class="column2">
+        <img class="sunrise gallery-image sunrise-dialog-trigger" src="sunrise.png" alt="sunrise">
+    </div>
+    <div class="column3"> 
+        <img class="red gallery-image red-dialog-trigger" src="red.png" alt="red">        
+        <img class="jesus gallery-image jesus-dialog-trigger" src="jesus.png" alt="jesus">
+    </div>
+</div>
+
+<!-- ART PAGE TWO -->
+<div id="artPage2">
+    <div class="column11">
+        <img class="Heart2 gallery-image heart2-dialog-trigger" src="heart2.png" alt="Heart2">
+        <img class="Jungle gallery-image jungle-dialog-trigger" src="jungle.png" alt="Jungle">
+    </div>
+    <div class="column22">
+        <img class="Ellie gallery-image ellie-dialog-trigger" src="ellie.png" alt="Ellie">
+    </div>
+    <div class="column33">
+        <div class="ladyHeart"> 
+            <img class="Heart gallery-image heart-dialog-trigger" src="heart.png" alt="Heart">
+            <img class="Lady gallery-image lady-dialog-trigger" src="lady.png" alt="Lady">
+        </div>
+        <img class="MoonMan gallery-image moonMan-dialog-trigger" src="moonMan.png" alt="MoonMan">
+    </div>
+</div>
+
+<div class="blob2">
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_penwgnf8.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player> 
+</div>
+
+<!-- GALLERY HEADER-->
+<div class="gallery">
+    <h1>GALLERY</h1>
+</div>
+
+<!-- SWIPER GALLERY-->
+<div class="swiperGallery-1">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="jesus.png" alt="jesus"></div>
+      <div class="swiper-slide"><img src="sunrise.png" alt="sunrise"></div>
+      <div class="swiper-slide"><img src="heart.png" alt="heart"></div>
+      <div class="swiper-slide"><img src="lady.png" alt="lady"></div>
+      <div class="swiper-slide"><img src="jungle.png" alt="jungle"></div>
+      <div class="swiper-slide"><img src="moonMan.png" alt="moonMan"></div>
+      <div class="swiper-slide"><img src="mushroom.png" alt="mushroom"></div>
+      <div class="swiper-slide"><img src="ellie.png" alt="ellie"></div>
+      <div class="swiper-slide"><img src="hand.png" alt="hand"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<!-- DIALOG - mushroom -->
+<sl-dialog label="" class="dialog-mushroom product-dialog">
+    <div class="product-dialog-inner">
+        <div class="dialog-content">
+            <h1>Psilocybin</h1>
+            <p> $800
+                <br>
+                <br>
+                Plasticine on Wood
+                20cm x 25cm
+                <br>
+                <br>
+                Started and finsihed within 2 months, this was at first a trial as I’d only seen plasticine painting be done by other artists. My art is all about texture and depth of the canvas and the mind, the mushroom I feel represents such qualities. 
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enquire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+        <div class="dialog-image">
+            <img src="mushroom.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- DIALOG - sunrise -->
+<sl-dialog label="" class="dialog-sunrise product-dialog">
+    <div class="product-dialog-inner">
+        <div class="dialog-content">
+            <h1>Grand Rising</h1>
+            <p> $1,700
+                <br>
+                <br>
+                Oil paint & pastel on canvas
+                100cm x 130cm
+                <br>
+                <br>
+                Produced in July 2021 this painting was inspired by a change on environment and the sunrise. It represents a new day and a new way of being. The fluidity of these paintings explore how matter is always moving and healing takes motion, and not always in a straight line.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+        <div class="dialog-image">
+            <img src="sunrise.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- DIALOG - red -->
+<sl-dialog label="" class="dialog-red product-dialog">
+    <div class="product-dialog-inner">
+        <div class="dialog-content">
+            <h1>Rouge</h1>
+            <p> $150 
+                <br>
+                <br>
+                Mixed medium on paper 
+                15cm x 10cm
+                <br>
+                <br>
+                Rouge is an abstract piece I made one day in May 2021. Rouge represents whats hidden from society and the duality. The good, the evil. As above, so below.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+
+        <div class="dialog-image">
+            <img src="red.png" alt="">
+        </div>
+    </div>
+    
+</sl-dialog>
+
+<!-- DIALOG - jesus -->
+<sl-dialog label="" class="dialog-jesus product-dialog">
+    <div class="product-dialog-inner">
+        <div class="dialog-content">
+            <h1>Enlightenment</h1>
+            <p>$1,400
+                <br>
+                <br>
+                Oil & Gold Leaf on Canvas
+                100cm x 100cm
+                <br>
+                <br>
+                Started in 2017 and finished in 2019, ‘Enlightenment’ is a piece inspired by my religious and spiritual exploration. It acknowledges the beauty within the pain of change and the momentous epiphany of realising change is a blessing.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+    
+        <div class="dialog-image">
+            <img src="jesus.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- DIALOG - hand -->
+<sl-dialog label="" class="dialog-hand product-dialog">
+    <div class="product-dialog-inner">
+        <div class="dialog-content">
+            <h1>Prithvi Mudra</h1>
+            <p> $300
+                <br>
+                <br>
+                Mixed Medium
+                20cm x 30cm
+                <br>
+                <br>
+                Prithvi Mudra was made in August 2022 and was a reflecting of self-healing and riding of pain from the soul. It also shows a God-like presence within everyone. The golden tears run down from the heavens and unto humanity.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+
+        <div class="dialog-image">
+            <img src="hand.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- DIALOG - heart2 -->
+<sl-dialog label="" class="dialog-heart2 product-dialog">
+   <div class="product-dialog-inner">
+       <div class="product-dialog-content">
+           <h1>Carnivore</h1>
+           <p> $1,400
+                <br>
+                <br>
+                Acrylic on canvas
+                45cm x 35cm
+                <br>
+                <br>
+                Started and finished late September 2021, with the centre heart finger painted. Carnivore depicts a cleansed heart amongst the karmic ties it once was ruled by. 
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+           </p>
+       </div>
+
+       <div class="dialog-image">
+           <img src="heart2.png" alt="">
+       </div>
+   </div>
+</sl-dialog>
+
+<!-- DIALOG - ellie -->
+<sl-dialog label="" class="dialog-ellie product-dialog">
+    <div class="product-dialog-inner">
+        <div class="product-dialog-content">
+            <h1>Atonement</h1>
+            <p> $3,000
+                <br>
+                <br>
+                Oil & gold leaf on wood
+                150cm x 200cm
+                <br>
+                <br>
+                This piece was produced in 2016 for my WACE. Struggling with depression & anxiety at the time, this piece represents a last plea to the heavens for atonement and salvation. 
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+        
+        <div class="dialog-image">
+            <img src="ellie.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- DIALOG - heart -->
+<sl-dialog label="" class="dialog-heart product-dialog">
+    <div class="product-dialog-inner">
+        <div class="product-dialog-content">
+            <h1>Poisoned</h1>
+            <p> $100
+                <br>
+                <br>
+                Oil paint & pastel on canvas
+                25cm x 20cm
+                <br>
+                <br>
+                Finished in late 2019, poisoned reflects a pure heart with an insect that has landed on it. The insect is seen as dirty and so guilty by association, so now is the heart. Associations create illusions that stop what could have been.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+
+        <div class="dialog-image">
+            <img src="heart.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- DIALOG - lady -->
+<sl-dialog label="" class="dialog-lady product-dialog">
+    <div class="product-dialog-inner">
+        <div class="product-dialog-content">
+            <h1>She</h1>
+            <p> $200
+                <br>
+                <br>
+                Oil & gold leaf on canvas
+                25cm x 30cm
+                <br>
+                <br>
+                Produced in early 2020. She is lost in her illusions, a simpler life.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+
+        <div class="dialog-image">
+            <img src="lady.png" alt="">
+        </div>
+    </div>
+    
+</sl-dialog>
+
+<!-- DIALOG - jungle -->
+<sl-dialog label="" class="dialog-jungle product-dialog">
+    <div class="product-dialog-inner">
+        <div class="product-dialog-content">
+            <h1>Unhurt</h1>
+            <p> $800
+                <br>
+                <br>
+                Mixed Medium
+                150cm x 150cm
+                <br>
+                <br>
+                Started in 2018 and finished in 2021, Unhurt was a journey through the loss of my best friend and finding a way through it with my art. Nothing cures a heart like art and the environment.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+
+        <div class="dialog-image">
+            <img src="jungle.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- DIALOG - moonMan -->
+<sl-dialog label="" class="dialog-moonMan product-dialog">
+    <div class="product-dialog-inner">
+        <div class="product-dialog-content">
+            <h1>Dark secrets of the Moon</h1>
+            <p> $500
+                <br>
+                <br>
+                Oil & Gold Leaf on canvas
+                100cm x 100cm
+                <br>
+                <br>
+                Finished in 2020, Dark Secrets of the Moon depicts a hand painted version of ‘An Old Woman Reading’ by Rembrandts. This painting subtly encourages the viewer to question the dark side of the moon.
+                <br>
+                <br>
+                For more information on purchases go to our Contact page to enqire
+                <br>
+                <br>
+                Or view more pieces in the Gallery
+            </p>
+        </div>
+        <div class="dialog-image">
+            <img src="moonMan.png" alt="">
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- si-b1 -->
+<sl-dialog label="" class="dialog-si-b1 product-dialog">
+    <div class="si-b1-inner">
+        <div class="si-b1-dialog-content">
+            <h1>About Me</h1>
+            <p>I am 23 years old and currently a second-year student studying Digital Design with electives in Fine Arts.
+                <br>
+                <br>
+                My passion for art ignited when I was four years old having the opportunity to get creative often in school art studios. My style was founded in the last year of high-school when I was creating my ATAR piece. After high-school I further developed my skills by testing and trialling different textures, mediums and styles in between University commitments. I fell in love with many methods and styles; I’ve worked with Lino Prints, plasticine paintings, watercolour, acrylic, clay sculpturing, spray painting, Ink etchings, paint pens and some textiles. 
+                <br>
+                <br>
+                I came to realise that texture and colour really intrigued me and so I began experimenting with those. And thus, the early stages of my style was born. This style of mine is fluid and vibrant, full of playful colours that create a visually intriguing experience. I am currently working of furthering this style and truly making it my own. I love working with others so am always keen to collaborate and create some magic!
+            </p>
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- si-b2 -->
+<sl-dialog label="" class="dialog-si-b2 product-dialog">
+    <div class="si-b2-inner">
+        <div class="si-b2-dialog-content">
+            <h1>Artworks</h1>
+            <p>I am always working on 2-3 paintings at a time and really enjoy creating hidden meaning abstract art. My goal for these artworks is to bring truth to society and happiness to those that have the pleasure of taking a piece home with them.
+                I work in a clean and happy environment which I feel is necessary to create an artwork of the like. Art is my passion and I will be creating until my days are done.
+                <br>
+                <br>
+                The meaning of my art is an illusion, only the viewer can create meaning from it. Every piece carries a high vibration and certain emotional qualities which I want to share with the world.
+                <br>
+                <br>
+                <br>
+                “The meaning of life is to find your gift, the purpose of life is to give it away”
+                <br>
+                 - Pablo Picasso 
+                <br>
+                <br>
+                <br>
+                My purpose is to spread healing through my art to people all over the world. I feel that my art chooses the buyer; in which I mean my art seeks out people who need it most.
+            </p>
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- si-b3 -->
+<sl-dialog label="" class="dialog-si-b3 product-dialog">
+   <div class="si-b3-inner">
+       <div class="si-b3-dialog-content">
+           <h1>New & Up Coming</h1>
+           <p> <bold>ARTWORKS IN THE MAKING:</bold>
+            <br>
+            <br>
+            - Abstract Large
+              100cm x 80cm 
+            <br>
+            <br>
+            - Abstract lotus flower
+              diametre of 30cm
+            <br>
+            <br>
+            - Comission Small
+              30cm x 3ocm
+            <br>
+            <br>
+            - Commision Large
+              100cm x 50cm
+            <br>
+            <br>
+            <br>
+            <br>
+            UPCOMING EXHIBITIONS:
+            <br>
+            <br>
+            - February 2022 (dates still being decided)
+           </p>
+       </div>
+   </div>
+</sl-dialog>
+
+<!-- si-b4 -->
+<sl-dialog label="" class="dialog-si-b4 product-dialog">
+    <div class="si-b4-inner">
+        <div class="si-b4-dialog-content">
+            <h1>My Materials</h1>
+            <p>Materials I work with:
+                <br>
+                <br>
+                - Oil Paint
+                <br>
+                <br>
+                - Oil Pastels
+                <br>
+                <br>
+                - Acrylic Paint
+                <br>
+                <br>
+                - Acyrlic Paint Pens
+                <br>
+                <br>
+                - Spray Paint
+                <br>
+                <br>
+                - Water colour Ink
+                <br>
+                <br>
+                - Water colour Pencils
+                <br>
+                <br>
+                - Plasticine
+                <br>
+                <br>
+                - Gold Leaf
+                <br>
+                <br>
+                - Glitter powder
+                <br>
+                <br>
+                - Collage (Nat Geo Magazines)
+                <br>
+                <br>
+                - Lino Cuts/Prints
+                <br>
+                <br>
+                - Lino Etchings
+                <br>
+                <br>
+                - Home-made paper
+                <br>
+                <br>
+                - Some Textiles
+            </p>
+        </div>
+    </div>
+</sl-dialog>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footerColumn1">
+        <h3>CONTACT</h3>
+        <p class="footer-p-1">About
+            <br>
+            <br>
+            Contact Me
+            <br>
+            <br>
+            Sponsors
+            <br>
+            <br>
+            FAQ
+        </p>
+    </div>
+
+    <div class="footerColumn2">
+        <h3>TERMS</h3>
+        <p class="footer-p-2">Terms & Conditions
+            <br>
+            <br>
+            Privacy Policy
+            <br>
+            <br>
+            CopyRight Act 2021
+            <br>
+            <br>
+            Cookies
+        </p>
+    </div>
+
+    <div class="footerColumn3">
+        <h3>ABOUT</h3>
+        <p class="footer-p-3">Exhibitions
+            <br>
+            <br>
+            Pricing
+            <br>
+            <br>
+            Commissions
+            <br>
+            <br>
+            Feedback
+        </p>
+    </div>
+
+    <div class="arrow">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_2z4qmxlj.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+    </div>
+
+    <div class="footerColumn4">
+        <h3>SOCIAL MEDIA</h3>
+            <div class="instagramLink">
+                <a href="https://www.instagram.com/rubypainted.it/">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+    </div>
+</footer>
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.57/dist/shoelace.js/+esm"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/shoelace.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="main.js"> </script>
+</body>
+</html>
